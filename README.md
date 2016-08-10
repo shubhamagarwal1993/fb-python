@@ -9,6 +9,7 @@ Writting in python (flask)
 ### Original steps to set up basic app which replies
 * Code:
     * `pip install Flask`
+    * `pip install requests`
     * See `original_code.py` for what all we need to set up basic communication
     * `ngrok http 5000`. This will give us a link on which facebook messenger can talk to us.
       * Will have to install ngrok
@@ -28,4 +29,3 @@ Writting in python (flask)
     * Name a verification token (I named it `secret`)
     * Generate `Page Access Token` in the messenger tab in settings
     * Go to the webhooks section
-    * 
